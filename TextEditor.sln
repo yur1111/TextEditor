@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "TextEditor\TextEditor.csproj", "{D388A3D6-66C4-45A5-9825-2B09DD9B9CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{AF75D2A9-3929-405F-AD69-47913EF5E4CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D388A3D6-66C4-45A5-9825-2B09DD9B9CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D388A3D6-66C4-45A5-9825-2B09DD9B9CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D388A3D6-66C4-45A5-9825-2B09DD9B9CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D388A3D6-66C4-45A5-9825-2B09DD9B9CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF75D2A9-3929-405F-AD69-47913EF5E4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF75D2A9-3929-405F-AD69-47913EF5E4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF75D2A9-3929-405F-AD69-47913EF5E4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF75D2A9-3929-405F-AD69-47913EF5E4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FB232A4-E280-44AC-A46D-40CE2FAFC1D4}
+	EndGlobalSection
+EndGlobal
