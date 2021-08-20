@@ -12,6 +12,7 @@ namespace TextEditor
         void ShowMessage(string message);
         void ShowExclamation(string exclamation);
         void ShowError(string error);
+        void ShowQuestion(string question);
     }
     class MessageService : IMessageService
     {
@@ -26,6 +27,10 @@ namespace TextEditor
         public void ShowError(string error)
         {
             MessageBox.Show(error, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+        public void ShowQuestion(string question)
+        {
+            MessageBox.Show(question, "Сохранение", MessageBoxButtons.YesNoCancel);
         }
     }
 }
